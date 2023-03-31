@@ -1,0 +1,61 @@
+body {
+	animation: bg-color 5s infinite;
+}
+
+h1 {
+	text-align: center;
+	color: rgb(255, 238, 0);
+	font-size: 6em;
+	text-shadow: 2px 2px rgb(0, 0, 0);
+	font-family: Arial, sans-serif;
+}
+
+#countdown {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+
+@keyframes bg-color {
+	0% {
+		background-color: black; /* Black */
+	}
+	50.00% {
+        background-color: #333; /* Grey */
+    }
+    75% {
+        background-color: white; /* White */
+    }
+    100% {
+        background-color: black; /* Black */
+    }
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+	width: 100%;
+}
+
+
